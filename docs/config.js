@@ -1,13 +1,13 @@
 module.exports = {
-    base: '/bigbigbigbear.github.io/',  // 站点基础路径
-    title: 'blog-bear',  // 网站的标题
-	description: 'My Vuepress Blog',  // 网站的描述
+    base: '/blog/',  // 站点基础路径
+    title: 'Bear的博客',  // 网站的标题
+	description: 'My Blog',  // 网站的描述
 	head: [
 		['link', { rel: 'icon', href: '/logo.png' }]
 	],
     themeConfig: {
         // 你的GitHub仓库，请正确填写
-        repo: 'https://github.com/bigbigbigbear/bigbigbigbear.github.io',
+        repo: 'https://github.com/bigbigbigbear/blog',
         // 自定义仓库链接文字。
         repoLabel: 'My GitHub',
         nav: [

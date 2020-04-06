@@ -1,7 +1,7 @@
 module.exports = {
     base: '/blog/',  // 站点基础路径
     title: 'Bear的博客',  // 网站的标题
-	description: 'My Blog',  // 网站的描述
+	description: 'Never Too Late To Learn',  // 网站的描述
 	head: [
 		['link', { rel: 'icon', href: '/logo.png' }]
 	],

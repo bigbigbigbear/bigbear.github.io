@@ -4,7 +4,7 @@
 set -e
 
 git add .
-git commit -m 'update'
+git commit -m 'fix#更新代码'
 git pull origin dev
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>

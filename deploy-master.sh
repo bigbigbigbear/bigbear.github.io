@@ -9,11 +9,10 @@ npm run docs:build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+git init
 git add -A
-git commit -m 'deploy'
-git pull origin master
+git commit -m 'feat#deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push origin master
-
+git push -f https://github.com/bigbigbigbear/blog.git master
 cd -

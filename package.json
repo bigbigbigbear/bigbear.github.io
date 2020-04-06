@@ -11,8 +11,8 @@
     "vuepress": "^1.4.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "deploy:master": "sh ./deploy-master.sh",
     "deploy:dev": "sh ./deploy-dev.sh",
     "test": "echo \"Error: no test specified\" && exit 1"

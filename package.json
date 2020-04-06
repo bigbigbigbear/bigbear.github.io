@@ -13,8 +13,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy:master": "sh ./deploy-master.sh",
-    "deploy:dev": "sh ./deploy-dev.sh",
+    "deploy:master": "sh deploy-master.sh",
+    "deploy:dev": "sh deploy-dev.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

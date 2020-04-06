@@ -9,5 +9,3 @@ git pull origin dev
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push origin dev
-
-cd -
